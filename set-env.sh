@@ -1,7 +1,7 @@
 RED='\033[0;31m'
 
 if [ -z "$1" ] || [ -z "$2" ]; then
-    echo -e "${RED}Must provide both project and environment - IE setnav singer 1"
+    echo -e "${RED}Must provide both project and environment - IE setenv singer 1"
     exit
 fi
 
