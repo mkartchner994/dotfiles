@@ -1,1 +1,1 @@
-alias tsup='./start-tailscale.sh'
+alias tsup='/home/gitpod/start-tailscale.sh'
