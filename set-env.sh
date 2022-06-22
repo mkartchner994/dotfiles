@@ -12,5 +12,5 @@ if [ "$PROXYSTATUS" != "200" ]; then
     exit
 fi
 
-curl -v curl -v http://100.95.104.43:5000/hosts/$2 | sudo tee -a /etc/hosts
+curl -v http://100.95.104.43:5000/hosts/$2 | sudo tee -a /etc/hosts
 curl http://100.95.104.43:5000/envs/$1/$2 -o ${PWD}/.env
